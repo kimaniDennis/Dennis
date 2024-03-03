@@ -1,0 +1,38 @@
+:root {
+  --cyan: #00ffff;
+  --gray: rgb(204, 204, 201);
+}
+
+.about {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.about_text {
+  color: white;
+  text-align: right; /* Align text to the right */
+  padding-right: 20px; /* Adjust padding on the right */
+  padding-left: 80px; /* Add padding to the left for balance */
+}
+
+.about_image {
+  position: relative; /* Ensure proper positioning */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent; /* Set background to transparent */
+  flex-shrink: 0; /* Prevent image from shrinking too much */
+}
+
+.about_image img {
+  max-width: 50%; /* Set maximum width of the image */
+  height: auto;
+  z-index: 1; /* Ensure image appears above text */
+}
+
+.about_text {
+  position: relative;
+  z-index: 2; /* Ensure text appears above image */
+}

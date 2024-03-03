@@ -1,0 +1,25 @@
+:root {
+    --cyan: #00ffff;
+    --gray: rgb(204, 204, 201);
+}
+
+.text-white h2 span {
+    color: var(--cyan);
+    font-size: 14px;
+}
+
+.text-white h3 a {
+    color: var(--cyan);
+    text-decoration: none;
+}
+
+.text-white p,
+.text-white span {
+    color: var(--gray);
+    font-size: 15px;
+}
+
+.nav-link.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 14px;
+}

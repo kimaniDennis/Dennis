@@ -1,0 +1,42 @@
+:root {
+    --cyan: #00ffff;
+    --gray: rgb(204, 204, 201);
+  }
+  
+  .projects h3 span {
+    color: var(--cyan);
+    font-size: 14px;
+  }
+  
+  .card:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  
+  .card {
+    transition: transform 0.5s;
+    height: 200px; /* Set the height to 100% */
+}
+  
+  
+  .card-body {
+    color: var(--gray);
+    height: 200px; /* Set the height to 100% */
+    overflow: hidden; /* Ensure content doesn't overflow */
+}
+   
+  
+  
+  .card-body button {
+    padding: 3px 10px;
+    font-size: 14px;
+    color: var(--gray);
+    border: 1px solid var(--cyan);
+    border-radius: 3px;
+  }
+  
+  .card-body button:hover {
+    background-color: rgba(62, 122, 130, 0.4);
+    color: var(--cyan);
+  }
+  

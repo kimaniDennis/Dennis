@@ -1,0 +1,24 @@
+:root {
+    --cyan: #00ffff;
+    --gray: rgb(204, 204, 201);
+}
+
+#contact .what {
+    color: var(--cyan);
+}
+
+#contact .detail {
+    color: var(--cyan);
+}
+
+#contact button {
+    border: 1px solid var(--cyan);
+    color: var(--gray);
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+#contact button:hover {
+    background-color: rgba(62, 122, 130, 0.4) !important;
+    color: var(--cyan);
+}
